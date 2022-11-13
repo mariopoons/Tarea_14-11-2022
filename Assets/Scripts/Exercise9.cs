@@ -11,8 +11,14 @@ public class Exercise9 : MonoBehaviour
     private int result;
 
     private void Start()
+
     {
+        // the division of the total candy and the person to give candy
+        result = candyAvailable / toGiveCandy;
+        Debug.Log($"Each person takes {result} candies");
+
+        // the rest of the candies available
         result = candyAvailable % toGiveCandy;
-        Debug.Log(result);
+        Debug.Log($"{result} candies are left");
     }
 }

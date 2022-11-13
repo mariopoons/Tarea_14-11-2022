@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Exercise10 : MonoBehaviour
+
 {
+    /* I know that it's a terrible way for doing this, but I don't know another better xd */
+    // the variables for doing the multiplication table
     public int x = 2;
+    public int y = 0;
     public int y1 = 0;
     public int y2 = 1;
     public int y3 = 2;
@@ -20,6 +25,7 @@ public class Exercise10 : MonoBehaviour
 
     private void Start()
     {
+        // the code of the multiplication table 
         if (x == 2)
         Debug.Log(result = x * y1);
         Debug.Log(result = x * y2);
@@ -32,6 +38,7 @@ public class Exercise10 : MonoBehaviour
         Debug.Log(result = x * y9);
         Debug.Log(result = x * y10);
         Debug.Log(result = x * y11);
+
 
     }
 }
