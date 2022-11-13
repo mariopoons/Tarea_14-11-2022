@@ -5,12 +5,14 @@ using UnityEngine;
 public class Exercise9 : MonoBehaviour
 {
     // the amount of candy available
-    public int candyAvailable = 0;
+    public int candyAvailable = 62;
     // the number of people to give candy to.
-    public int giveCandy = 0;
+    public int toGiveCandy = 29;
+    private int result;
 
     private void Start()
     {
-        
+        result = candyAvailable % toGiveCandy;
+        Debug.Log(result);
     }
 }

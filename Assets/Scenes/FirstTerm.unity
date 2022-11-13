@@ -259,16 +259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41850ac568d543646b4d2da2433d4c64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  num1: 5
-  num2: 2
-  num3: 3
-  result123: 10
-  name: Mario
-  city: Palma
-  personName: Paco
-  personAge: 20
-  birthYear: 2002
-  currentYear: 2022
 --- !u!65 &1584057496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -359,6 +349,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb0f942c764ee074390406eb24ffa261, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 2
+  y1: 0
+  y2: 1
+  y3: 2
+  y4: 3
+  y5: 4
+  y6: 5
+  y7: 6
+  y8: 7
+  y9: 8
+  y10: 9
+  y11: 10
+  result: 0
 --- !u!114 &1584057501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,8 +374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff6f97d32f86ed544aa80d2d7db54f3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  candyAvailable: 0
-  giveCandy: 0
+  candyAvailable: 62
+  toGiveCandy: 39
 --- !u!114 &1584057502
 MonoBehaviour:
   m_ObjectHideFlags: 0

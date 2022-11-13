@@ -13,7 +13,7 @@ public class Exercise1 : MonoBehaviour
 
     private void Start()
     {
-        // the operation of the sum
+        // the sum in console
         result = x + y + z;
         Debug.Log(result);
 
