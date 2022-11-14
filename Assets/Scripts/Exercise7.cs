@@ -8,11 +8,9 @@ public class Exercise7 : MonoBehaviour
     public string letter = "";
 
     private void Start()
-        /* I know that this is not what you have said in clas Maria, but is the only way that
-        I find for doing it xd*/
         // this tells if the letter that you put is vowel or consonant.
     {
-        if (letter is "a" or "e" or "i" or "o" or "u")
+        if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u")
         { 
             Debug.Log($" The letter {letter} is a vowel");
         }

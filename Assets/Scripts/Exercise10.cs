@@ -6,38 +6,25 @@ using UnityEngine;
 public class Exercise10 : MonoBehaviour
 
 {
-    /* I know that it's a terrible way for doing this, but I don't know another better xd */
-    // the variables for doing the multiplication table
+    // the variable for doing the multiplication table
     public int x = 2;
-    public int y = 0;
-    public int y1 = 0;
-    public int y2 = 1;
-    public int y3 = 2;
-    public int y4 = 3;
-    public int y5 = 4;
-    public int y6 = 5;
-    public int y7 = 6;
-    public int y8 = 7;
-    public int y9 = 8;
-    public int y10 = 9;
-    public int y11 = 10;
-    public int result;
+    
 
     private void Start()
     {
         // the code of the multiplication table 
         if (x == 2)
-        Debug.Log(result = x * y1);
-        Debug.Log(result = x * y2);
-        Debug.Log(result = x * y3);
-        Debug.Log(result = x * y4);
-        Debug.Log(result = x * y5);
-        Debug.Log(result = x * y6);
-        Debug.Log(result = x * y7);
-        Debug.Log(result = x * y8);
-        Debug.Log(result = x * y9);
-        Debug.Log(result = x * y10);
-        Debug.Log(result = x * y11);
+        Debug.Log($"{x} * {1} = { x * 1}");
+        Debug.Log($"{x} * {2} = { x * 2}");
+        Debug.Log($"{x} * {3} = { x * 3}");
+        Debug.Log($"{x} * {4} = { x * 4}");
+        Debug.Log($"{x} * {5} = { x * 5}");
+        Debug.Log($"{x} * {6} = { x * 6}");
+        Debug.Log($"{x} * {7} = { x * 7}");
+        Debug.Log($"{x} * {8} = { x * 8}");
+        Debug.Log($"{x} * {9} = { x * 9}");
+        Debug.Log($"{x} * {10} = { x * 10}");
+        
 
 
     }
